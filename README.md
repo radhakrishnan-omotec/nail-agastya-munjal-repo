@@ -4,11 +4,15 @@ Portable Nail Infection Detection System Using Advanced Image Processing Techniq
 
 This project develops an embedded vision system for non-invasive detection of nail infections, distinguishing between **Onychomycosis** and **Healthy Nail** classes. It integrates spectral imaging with deep learning algorithms, specifically lightweight Convolutional Neural Networks (CNNs), for edge deployment. The system aims to address limitations in traditional diagnostics (e.g., KOH preparation, fungal cultures) by providing rapid, accurate classification using hybrid feature extraction and multi-spectral imaging.
 
+---
+
 ### Research Objectives
 - **Multi-spectral Imaging**: Capture nail plate images under variable lighting conditions.
 - **Automated Segmentation**: Isolate regions like the lunula and hyponychium.
 - **Hybrid Feature Extraction**: Combine textural and chromatic features for robust classification.
 - **Edge Deployment**: Optimize for lightweight, portable devices.
+
+---
 
 ### Workflow
 1. **Examine and preprocess nail image data**: Analyze the dataset to understand image characteristics, count samples per class (Onychomycosis and Healthy Nail), and preprocess images by resizing, normalizing, and applying multi-spectral transformations to enhance chromatic details critical for infection detection.
