@@ -16,7 +16,7 @@ This project develops an embedded vision system for non-invasive detection of na
 3. **Develop a lightweight CNN model**: Design a compact CNN with convolutional layers for hybrid feature extraction (texture and color) and dropout for regularization, optimized for low computational overhead suitable for edge devices while maintaining diagnostic accuracy.
 4. **Train and evaluate the model**: Train the CNN on the preprocessed dataset, monitor performance metrics (accuracy, loss) over epochs, and evaluate generalization on a validation set to ensure reliable classification of nail infections.
 5. **Test with static images and real-time webcam input**: Validate the model on static nail images via a user interface and enable real-time detection using webcam feeds, integrating segmentation and spectral preprocessing for practical diagnostic deployment.
-6. **Convert to TensorFlow Lite for edge deployment**: Convert the trained model to TensorFlow Lite format, optimizing it for portable devices, ensuring low latency and resource efficiency for non-invasive nail infection screening in real-world settings.
+6. **Convert to TensorFlow Lite for RPI edge deployment**: Convert the trained model to TensorFlow Lite format, optimizing it for portable devices, ensuring low latency and resource efficiency for non-invasive nail infection screening in real-world settings.
 
 
 
@@ -47,5 +47,5 @@ The trained model is tested on static images via a Gradio UI, allowing users to 
 
 
 
-### Step 6: Convert to TensorFlow Lite for Edge Deployment
+### Step 6: Convert to TensorFlow Lite for RPI Edge Deployment
 The trained CNN is converted to TensorFlow Lite, a lightweight format optimized for edge devices like portable imaging systems. This step reduces model size and inference time, ensuring low latency and minimal resource use—crucial for deploying the system in clinics or homes. By enabling on-device processing, it supports the research vision of a standalone, non-invasive diagnostic tool, replacing cumbersome traditional methods with a rapid, efficient solution for nail infection screening.
